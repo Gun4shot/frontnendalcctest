@@ -1,0 +1,19 @@
+.scroll-reveal {
+  margin: 20px 0;
+
+  z-index: 10;
+}
+
+.scroll-reveal-text {
+  color:white;
+  font-size: clamp(1.6rem, 2vw, 3rem);
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .scroll-reveal-text {
+    font-size: clamp(1.0rem, 2vw, 3rem);
+  }
+}
+
